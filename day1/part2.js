@@ -10,8 +10,6 @@ async function main() {
     sums.push(parseInt(lines[i]) + parseInt(lines[i + 1]) + parseInt(lines[i + 2]))
   }
 
-  console.log(sums)
-
   let numTimes = 0
 
   for (let i = 1; i < sums.length; i++) {
